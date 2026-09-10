@@ -34,7 +34,11 @@ Restart Cursor / Grok Bot so skills are picked up.
 
 ### Marketplace
 
+- GitHub: https://github.com/10xcoldleads/listkit-wizard
+- Community listing: https://cursor.directory/plugins/listkit-wizard
+
 Submit this plugin directory (with `.cursor-plugin/plugin.json`) through the Cursor plugin marketplace flow. No MCP connector is required for core ListKit UI + Zapier browser setup.
+
 
 ## Components
 
