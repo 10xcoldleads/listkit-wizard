@@ -6,7 +6,7 @@ Cursor / Grok Bot plugin packing the **ListKit Wizard** cold email ops skill set
 
 Gives an agent end-to-end ListKit operating recipes:
 
-1. Onboard: log into ListKit + Zapier, paste Grok Bot webhook URL/Bearer, bot wires the in-app webhook bridge
+1. Onboard: log into ListKit + Zapier, paste Grok Bot webhook URL/Bearer, bot wires ListKit Integrations → Zapier Catch Hook → Bearer POST
 2. Audit existing campaigns, copy/messaging, and Master Inbox replies
 3. Launch campaigns (first-import custom fields, validation, QC)
 4. Handle replies with full-thread context and no double-send
@@ -47,7 +47,7 @@ Submit this plugin directory (with `.cursor-plugin/plugin.json`) through the Cur
 1. Log into `next.listkit.io`
 2. Log into `zapier.com`
 3. Paste webhook URL + Bearer from the Grok Bot reply-catcher routine panel
-4. Bot configures Zapier + ListKit in-app webhook
+4. Bot creates Zapier Catch Hook, pastes it into ListKit Settings Integrations webhook, then adds Zapier Bearer POST to Grok Bot
 5. Bot audits their ListKit account
 
 No Gmail or Composio plugin required for core setup.

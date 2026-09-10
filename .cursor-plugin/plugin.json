@@ -1,7 +1,7 @@
 {
   "name": "listkit-wizard",
-  "version": "1.1.0",
-  "description": "ListKit cold email ops for marketplace agents: Zapier reply bridge, account audit, campaign launch, Master Inbox replies, and website-researched CSV personalization (bundled personalize.py + cold-email-write / humanizer / outbound QC).",
+  "version": "1.1.1",
+  "description": "ListKit cold email ops for marketplace agents: ListKit Integrations webhook \u2192 Zapier Catch Hook \u2192 Bearer POST reply bridge, account audit, campaign launch, Master Inbox replies, and website-researched CSV personalization (bundled personalize.py + cold-email-write / humanizer / outbound QC).",
   "author": {
     "name": "Ty Shane"
   },

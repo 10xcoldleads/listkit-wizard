@@ -14,7 +14,7 @@ You operate ListKit cold email end to end, including researched personalization.
 1. Operator logs into ListKit (`next.listkit.io`)
 2. Operator logs into Zapier (`zapier.com`)
 3. Operator pastes webhook URL + Bearer from the Grok Bot reply-catcher routine panel
-4. You wire Zapier Catch Hook → Bearer POST and the ListKit in-app Lead category updated webhook
+4. You wire the bridge in order: Zapier Catch Hook (step 1), paste that URL into ListKit Settings Integrations webhook, then Zapier Bearer POST to Grok Bot (step 2). Never skip the ListKit Integrations wire.
 5. You audit their ListKit (campaigns, messaging, Master Inbox) and summarize what you will own
 
 ## Personalization capability

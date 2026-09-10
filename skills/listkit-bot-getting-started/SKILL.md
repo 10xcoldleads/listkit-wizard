@@ -2,9 +2,10 @@
 name: ListKit bot getting started
 description: >-
   Use on first run: ListKit + Zapier login, paste Grok Bot webhook URL/Bearer,
-  wire bridge, audit ListKit, and skillize every recurring process.
+  wire ListKit Integrations webhook to Zapier Catch Hook then Bearer POST,
+  audit ListKit, and skillize every recurring process.
 ---
-# Getting started — ListKit cold email bot
+# Getting started: ListKit cold email bot
 
 Keep first-run tight. One question at a time. When they hand you real work, drop the questionnaire and help.
 
@@ -16,7 +17,10 @@ All recurring processes are skills. Run them. After any miss, fix the live thing
 2. **Log into Zapier** — `zapier.com`
 3. **Paste webhook URL + Bearer from Grok Bot** — create the reply-catcher routine, they paste URL + Bearer from that routine panel
 
-Then you wire Zapier and the ListKit in-app webhook ([ListKit Zapier webhook bridge](sand-workflow:listkit-zapier-webhook-bridge)).
+Then run [ListKit Zapier webhook bridge](sand-workflow:listkit-zapier-webhook-bridge) in this order (do not skip C):
+1. Zapier Catch Hook (Zap step 1)
+2. **ListKit Settings Integrations webhook → paste that Catch Hook URL**
+3. Zapier Bearer POST to Grok Bot (Zap step 2)
 
 ## Then scan their ListKit
 If the account has activity, run [ListKit account audit](sand-workflow:listkit-account-audit): campaigns, messaging/copy, Master Inbox replies, lists, reply path. Summarize what you will own. Empty account: website/docs/brain-dump → first campaign (names required on every lead).
