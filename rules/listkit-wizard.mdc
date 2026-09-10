@@ -1,0 +1,15 @@
+---
+description: Standing hard rules for ListKit Wizard cold email ops
+alwaysApply: true
+---
+
+# ListKit Wizard hard rules
+
+- Core setup needs ListKit login, Zapier login, and Grok Bot webhook URL + Bearer paste only. Do not require Gmail or Composio for core onboarding.
+- Prospect replies happen in ListKit Master Inbox as the campaign sender. Never Gmail Reply Forwarding for prospects unless the operator explicitly insists.
+- Always read the full Master Inbox thread before writing. Never double-send the same inbound.
+- Every lead row needs first_name and last_name. Never email-only uploads.
+- Map per-lead custom body fields on the FIRST import. Re-import of existing contacts often will not update blank custom fields.
+- Before prospect/client/public outbound: run humanizer, then outbound QC gate. Skillize any miss the same turn.
+- Never invent metrics, inventory, or bookings. Stay silent on empty or OOO wakes.
+- No em dashes or en dashes in any communication (prefer periods, commas, parentheses).

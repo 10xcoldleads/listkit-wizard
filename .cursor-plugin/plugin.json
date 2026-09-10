@@ -1,0 +1,19 @@
+{
+  "name": "listkit-wizard",
+  "version": "1.1.0",
+  "description": "ListKit cold email ops for marketplace agents: Zapier reply bridge, account audit, campaign launch, Master Inbox replies, and website-researched CSV personalization (bundled personalize.py + cold-email-write / humanizer / outbound QC).",
+  "author": {
+    "name": "Ty Shane"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cold-email",
+    "cold-email-write",
+    "lead-sourcing",
+    "listkit",
+    "master-inbox",
+    "outbound",
+    "personalization",
+    "zapier"
+  ]
+}

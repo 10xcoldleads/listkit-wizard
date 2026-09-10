@@ -1,0 +1,16 @@
+{
+  "template": "Noticed you're {{lead_types}}.\n\nCurious if that's creating any bottlenecks on the sales side right now?",
+  "instructions": {
+    "lead_types": "In one short phrase, describe what this company does / who they serve based on the website (e.g. 'a B2B SaaS that helps agencies book more sales calls'). Be specific to THIS company. No fluff."
+  },
+  "fallbacks": {
+    "lead_types": "a growing business"
+  },
+  "context_cols": [
+    "Industry",
+    "Job Title",
+    "City",
+    "State"
+  ],
+  "description_col": "Keywords"
+}
