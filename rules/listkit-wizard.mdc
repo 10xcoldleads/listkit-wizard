@@ -6,7 +6,7 @@ alwaysApply: true
 # ListKit Wizard hard rules
 
 - Core setup needs ListKit login, Zapier login, and Grok Bot webhook URL + Bearer paste only. Do not require Gmail or Composio for core onboarding.
-- Reply bridge must connect ListKit Settings Integrations webhook to the Zapier Catch Hook URL (Zap step 1) before Zapier Bearer POSTs to Grok Bot (Zap step 2). Never put the Bearer URL into ListKit; never skip the Integrations wire.
+- Reply bridge must connect ListKit Integrations → Manage webhooks (Lead category updated) to the Zapier Catch Hook URL (Zap step 1) before Zapier Bearer POSTs to Grok Bot (Zap step 2). Never put the Bearer URL into ListKit; never skip Manage webhooks. Do not email Catch Hook to support.
 - Prospect replies happen in ListKit Master Inbox as the campaign sender. Never Gmail Reply Forwarding for prospects unless the operator explicitly insists.
 - Always read the full Master Inbox thread before writing. Never double-send the same inbound.
 - Every lead row needs first_name and last_name. Never email-only uploads.
